@@ -10,7 +10,7 @@ public class Main {
         OrderStorage storage = new OrderStorage();
 
         Clothing clothing = Clothing.builder().name("T-Shirt").build();
-        Electronics electronics = Electronics.builder().name("Laptop").build();
+        Electronics electronics = Electronics.builder().name("Phone").build();
 
         manager.processOrderInThread(clothing);
         manager.processOrderInThread(electronics);
